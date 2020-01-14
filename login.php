@@ -8,7 +8,7 @@ define("Consumer_Secret", "NFGglHHFLm0KttHt3oYZLvjgCuZsh0rCB6GLvDhvzCbdCF2Zwn");
 define('Callback', 'http:/ryoji2020.com/twitter/callback.php');
 
 //ライブラリを読み込む
-require "twitteroauth-master/autoload.php";
+require "twitteroauth/autoload.php";
 use Abraham\TwitterOAuth\TwitterOAuth;
 
 //TwitterOAuthのインスタンスを生成し、Twitterからリクエストトークンを取得する
